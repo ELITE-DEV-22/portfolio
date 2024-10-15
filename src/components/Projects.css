@@ -1,0 +1,58 @@
+.projects-section {
+    background-color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.projects-title {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #1e1e1e; /* Darker card background */
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative; /* Position for the pseudo-element */
+    overflow: hidden; /* To hide the shadows */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255, 0, 128, 0.5), 0 10px 30px rgba(128, 0, 255, 0.5); /* Pink and purple shadows */
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.view-project-button {
+    background-color: #ff0080; /* Button color */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.view-project-button:hover {
+    background-color: #e60073; /* Darker shade on hover */
+}
