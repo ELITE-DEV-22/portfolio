@@ -16,9 +16,9 @@ const ProjectCard = ({ title, description, link }) => {
 const Project = () => {
     const projects = [
         {
-            title: 'Project One',
-            description: 'This is a brief description of Project One.',
-            link: 'https://example.com/project-one',
+            title: 'Healt Care Services',
+            description: 'Basic CRUD operations.',
+            link: 'https://elite-dev-22.github.io/healthcare-services-app/',
         },
         {
             title: 'Project Two',
