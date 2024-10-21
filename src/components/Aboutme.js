@@ -1,5 +1,5 @@
 import React from "react";
-import img from "/Users/elita/Desktop/elita-portfolio/src/img.jpeg"; // Replace with your image path
+import img from "/Users/elita/Desktop/elita-portfolio/src/img.png";
 import "./Landingpage.css";
 import Timeline from "./timeline";
 const AboutMe = () => {
