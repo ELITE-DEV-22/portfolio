@@ -21,14 +21,14 @@ const Project = () => {
             link: 'https://elite-dev-22.github.io/healthcare-services-app/',
         },
         {
-            title: 'Project Two',
-            description: 'This is a brief description of Project Two.',
-            link: 'https://example.com/project-two',
+            title: 'Car Crash Detection',
+            description: 'Detection of Crash from video feeds',
+            link: 'https://github.com/ELITE-DEV-22/Crash-Detection',
         },
         {
             title: 'Project Three',
-            description: 'This is a brief description of Project Three.',
-            link: 'https://example.com/project-three',
+            description: 'Coming Soon!',
+            link: '.',
         },
     ];
 

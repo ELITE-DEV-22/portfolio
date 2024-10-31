@@ -9,7 +9,7 @@ const AboutMe = () => {
       className="bg-gradient-to-r from-purple-500 to-pink-500 text-black py-16"
     >
       {/* Heading Centered Above */}
-      <h2 className="text-3xl md:text-5xl font-bold mb-8 text-center">
+      <h2 className="text-3xl md:text-5xl font-bold mb-8 text-center mt-8">
         About Me
       </h2>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll'; // Make sure to import Link from react-scroll
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Navbar = () => {
   return (
@@ -8,17 +8,15 @@ const Navbar = () => {
         
         {/* Logo */}
         <div className="text-3xl font-bold text-purple-400 font-mono">
-          <a href="#home">Elita Gonsalves</a>
+          <Link to="/">Elita Gonsalves</Link> {/* Changed to Link */}
         </div>
 
         {/* Links for Desktop */}
         <div className="hidden md:flex space-x-8">
-          {[ "About Me", "Projects", "Contact"].map((section, index) => (
+          {["About Me", "Projects", "Contact"].map((section, index) => (
             <Link
               key={index}
-              to={section === "About Me" ? "about-me" : section === "Projects" ? "projects" : section.toLowerCase()} // Adjusting the link for About Me
-              smooth={true}
-              duration={500}
+              to={section === "About Me" ? "/about-me" : section === "Projects" ? "/projects" : "/contact"} // Updated links for router
               className="relative text-lg font-medium transition duration-300 ease-in-out hover:text-purple-400 group"
             >
               {section}

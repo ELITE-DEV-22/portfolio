@@ -2,12 +2,13 @@
     background-color: black;
     padding: 40px 20px;
     text-align: center;
+    height: 100vh; /* Set the full view height */
 }
 
 .projects-title {
     color: white;
     font-size: 2.5rem;
-    margin-bottom: 40px;
+    margin: 40px 0 20px; /* Add margin top for spacing */
 }
 
 .projects-container {
